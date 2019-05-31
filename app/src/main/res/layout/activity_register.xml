@@ -5,17 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/back"
+    android:background="#41B6E2"
     tools:context=".RegisterActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="Registration Form"
         android:textSize="50dp"
         android:layout_marginTop="30dp"
-        android:fontFamily="sans-serif-black"
-        android:textAlignment="center"/>
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="#FFFF"/>
 
     <EditText
         android:id="@+id/etFname"
@@ -23,14 +24,18 @@
         android:layout_height="wrap_content"
         android:hint="First Name"
         android:layout_margin="20dp"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:background="#FFFF"
+        />
+
     <EditText
         android:id="@+id/etLname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Last Name"
         android:layout_margin="20dp"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:background="#FFFF"/>
 
     <EditText
         android:id="@+id/etUsername"
@@ -38,7 +43,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:hint="Username"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:background="#FFFF"/>
 
     <EditText
         android:id="@+id/etPassword"
@@ -47,7 +53,8 @@
         android:inputType="textPassword"
         android:layout_margin="20dp"
         android:textSize="30dp"
-        android:hint="Password"/>
+        android:hint="Password"
+        android:background="#FFFF"/>
 
 
     <Button
@@ -56,6 +63,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Register"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:textColor="#FFFF"
+        android:background="#257A99"/>
 
 </LinearLayout>

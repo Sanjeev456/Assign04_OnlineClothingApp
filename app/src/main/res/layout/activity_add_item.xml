@@ -5,17 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/back"
+    android:background="@drawable/itembg"
     tools:context=".AddItemActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Items"
+        android:text="Add an Items"
         android:textSize="50dp"
         android:layout_marginTop="30dp"
-        android:fontFamily="sans-serif-black"
-        android:textAlignment="center"/>
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:background="#FFFF"/>
 
     <ImageView
         android:id="@+id/imgPhoto"
@@ -31,7 +32,8 @@
         android:layout_height="wrap_content"
         android:hint="Item Name"
         android:layout_margin="20dp"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:background="#FFFF"/>
 
     <EditText
         android:id="@+id/etPrice"
@@ -39,7 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:hint="Item Price"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:background="#FFFF"/>
 
     <EditText
         android:id="@+id/etDescription"
@@ -48,7 +51,8 @@
         android:inputType="textMultiLine"
         android:layout_margin="20dp"
         android:textSize="30dp"
-        android:hint="Description"/>
+        android:hint="Description"
+        android:background="#FFFF"/>
 
 
     <Button
@@ -58,7 +62,7 @@
         android:layout_margin="20dp"
         android:layout_gravity="center"
         android:text="Save"
-        android:background="#75250023"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:background="#FFFF"/>
 
 </LinearLayout>
